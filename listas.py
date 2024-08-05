@@ -21,14 +21,17 @@
 
 import json
 
-produto01: dict = {
+from typing import Dict
+
+
+produto01: Dict[str, any] = {
     "nome":"Sapato",
     "Quantidade":10,
     "Valor": 20.50
 }
 
 
-produto02: dict = {
+produto02: Dict[str, any] = {
     "nome":"Camisa",
     "Quantidade":5,
     "Valor": 10.50
