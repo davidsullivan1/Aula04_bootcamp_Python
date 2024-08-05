@@ -43,9 +43,9 @@ carrinho: list = []
 
 carrinho.append(produto01)
 carrinho.append(produto02)
-
-
 carrinho_json = json.dumps(carrinho)
 
-print(carrinho_json)
 
+
+for produto in carrinho:
+    print(produto)
